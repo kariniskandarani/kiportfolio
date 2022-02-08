@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/sheet') //to get name , profession , summary
+fetch('https://kiportserve.herokuapp.com/sheet') //to get name , profession , summary
 .then(response => response.json())
 .then(json =>{
 //     var side =document.getElementById('side');
@@ -126,7 +126,7 @@ for(var i=0; i<json.length;i++){
 
 //Skills Section
 
-fetch('http://localhost:3000/skills')
+fetch('https://kiportserve.herokuapp.com/skills')
 .then(response => response.json())
 .then(json =>{
     var skills=document.getElementById('skills-pro')
@@ -194,7 +194,7 @@ fetch('http://localhost:3000/skills')
 
 //Education sheet 
 
-fetch('http://localhost:3000/Education')
+fetch('https://kiportserve.herokuapp.com/Education')
 .then(response => response.json())
 .then(json =>{
     //Resume-Section
