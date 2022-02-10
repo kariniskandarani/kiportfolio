@@ -4,7 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-setTimeout((function() {
+
   "use strict";
 
   /**
@@ -253,5 +253,5 @@ setTimeout((function() {
     })
   });
 
-}),1000)
+
 
